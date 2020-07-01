@@ -74,8 +74,8 @@ training_params = \
     },
     "ResourceConfig": {
         "InstanceCount": 1,
-        "InstanceType": "ml.m5.large",
-        "VolumeSizeInGB": 5
+        "InstanceType": "ml.p2.xlarge",
+        "VolumeSizeInGB": 50
     },
     "TrainingJobName": job_name,
     "HyperParameters": {
